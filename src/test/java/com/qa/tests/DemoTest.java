@@ -40,5 +40,15 @@ public class DemoTest {
 		int b=10;
 		Assert.assertEquals(200, a*b);
 	}
+	
+	@Test
+	public void mod()
+	{
+		System.out.println("MOD");
+		int a=20;
+		int b=10;
+		Assert.assertTrue(b%a==0);
+		 
+	}
 
 }
