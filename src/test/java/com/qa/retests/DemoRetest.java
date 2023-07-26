@@ -61,7 +61,7 @@ public class DemoRetest {
 		Assert.assertTrue(bool);
 	}
 	
-	@Test(priority=6)
+	@Test(priority=7)
 	public void bool_1() 
 	{
 		System.out.println("BOOL");
@@ -69,8 +69,16 @@ public class DemoRetest {
 		Assert.assertTrue(bool);
 	}
 	
-	@Test(priority=6)
+	@Test(priority=8)
 	public void bool_2() 
+	{
+		System.out.println("BOOL");
+		Boolean bool=true;
+		Assert.assertTrue(bool);
+	}
+	
+	@Test(priority=9)
+	public void bool_3() 
 	{
 		System.out.println("BOOL");
 		Boolean bool=true;
