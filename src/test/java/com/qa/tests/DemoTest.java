@@ -48,7 +48,18 @@ public class DemoTest {
 		int a=20;
 		int b=10;
 		Assert.assertTrue(b%a==0);
-		 
+		//Change1
+		//Change2
+		//Change3 
 	}
+	
+	@Test
+	public void bool() 
+	{
+		System.out.println("BOOL");
+		Boolean bool=true;
+		Assert.assertTrue(bool);
+	}
+	
 
 }

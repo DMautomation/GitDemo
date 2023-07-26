@@ -40,5 +40,25 @@ public class DemoRetest {
 		int b=10;
 		Assert.assertEquals(200, a*b);
 	}
+	
+	@Test(priority=5)
+	public void mod()
+	{
+		System.out.println("MOD");
+		int a=20;
+		int b=10;
+		Assert.assertTrue(b%a==0);
+		//Change1
+		//Change2
+		//Change3 
+	}
+	
+	@Test(priority=6)
+	public void bool() 
+	{
+		System.out.println("BOOL");
+		Boolean bool=true;
+		Assert.assertTrue(bool);
+	}
 
 }
