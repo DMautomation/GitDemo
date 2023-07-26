@@ -60,5 +60,21 @@ public class DemoRetest {
 		Boolean bool=true;
 		Assert.assertTrue(bool);
 	}
+	
+	@Test(priority=6)
+	public void bool_1() 
+	{
+		System.out.println("BOOL");
+		Boolean bool=true;
+		Assert.assertTrue(bool);
+	}
+	
+	@Test(priority=6)
+	public void bool_2() 
+	{
+		System.out.println("BOOL");
+		Boolean bool=true;
+		Assert.assertTrue(bool);
+	}
 
 }
